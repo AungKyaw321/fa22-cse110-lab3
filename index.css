@@ -1,4 +1,58 @@
 /* Set h1 header to blue */
 h1{
     color: blue ;
+    text-decoration: underline;
+    text-align: center;
+    background-color: rgb(200,200,200,.5);
 }
+h1:hover{
+    background-color: blueviolet;
+}
+.home{
+    display: block;
+}
+h2{
+    display: inline;
+    color:#f0f;
+}
+h2:active{
+    color:black;
+}
+h3{
+    color: hsl(0, 100%, 50%);
+    display: grid;
+}
+.block,
+#block
+{
+    height: 50px;
+    width: 100px;
+    margin-top: 1cm;
+    border-style: dotted;
+    padding-top: .5rem;
+}
+#sth
+{
+    max-width: 100%;
+    min-width: none;
+    margin: auto;
+    border: 2px solid black;
+    padding: 1em 2em 5px 3em;
+}
+#wild
+{
+    position: static;
+    margin: 3mm 4mm 5mm 0mm;
+    border: 2px solid red;
+    padding: 2ex 1ex 3ex 4ex;
+}
+#cool
+{
+    position: relative;
+    border-width: 4px;
+    border-color:#f0f;
+    border-radius: 30px;
+    border-style: dotted;
+}
+
+
