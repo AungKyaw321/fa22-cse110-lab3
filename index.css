@@ -1,5 +1,8 @@
 /* Set h1 header to blue */
-h1{
+*{
+    background-color: rgb(100, 194, 123);
+}
+h1 ~ p{
     color: blue ;
     text-decoration: underline;
     text-align: center;
@@ -11,16 +14,34 @@ h1:hover{
 .home{
     display: block;
 }
-h2{
+h2 + h3{
     display: inline;
     color:#f0f;
 }
 h2:active{
-    color:black;
+    color:rgb(73, 25, 204);
 }
-h3{
+h3 em {
     color: hsl(0, 100%, 50%);
-    display: grid;
+    display: inline;
+    
+}
+h2:hover {
+    color:rgb(96, 211, 20);
+}
+h2.context{
+    color:#f0f;
+}
+.something
+{
+    color:aqua;
+    background-color: beige;
+}
+a[href = "#Attendance"]{
+    color:rgb(214, 167, 14)
+}
+li{
+    color:rgb(16, 248, 27)
 }
 .block,
 #block
@@ -54,5 +75,65 @@ h3{
     border-radius: 30px;
     border-style: dotted;
 }
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    background-color: aqua;
+    padding: 10px;
+}
+
+.container > div{
+    background-color: #f0f;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+.first{
+    grid-column: 1 / span 2;
+}
+
+#flexProp
+{
+    width: 400px;
+    height: 150px;
+    border:10px dotted crimson;
+    display: flex;
+}
+@font-face {
+    font-family: Fuzzy Bubble;
+    src: url(FuzzyBubbles-Bold.ttf);
+}
+
+#item1
+{
+    flex-grow:4;
+    background-color:aquamarine;
+    align-self: flex-end;
+    font-family: Fuzzy Bubble;
+}
+
+#item2
+{
+    flex-shrink: 3;
+    background-color: blueviolet;
+    align-self: flex-start;
+}
+
+#item3
+{
+    flex-grow:2;
+    background-color: bisque;
+    align-self: center;
+}
+
+@media (min-width: 200px){
+    #steam
+    {
+        background-color:rgb(167, 110, 25);
+    }
+}
+
 
 
