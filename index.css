@@ -26,9 +26,6 @@ h3 em {
     display: inline;
     
 }
-h2:hover {
-    color:rgb(96, 211, 20);
-}
 h2.context{
     color:#f0f;
 }
