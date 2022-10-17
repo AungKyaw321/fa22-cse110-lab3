@@ -1,4 +1,4 @@
-# This is an example Standup 
+# This is a Standup notes template
 <br>
 <br>
 
@@ -8,8 +8,8 @@
 ## What am I (Name) working on today?
 <br>
 
-## What issues are blocking me (Name)?
-<br>
+## What issues am I (Name) stuck on?
+
 ---
 
 ## What did I (Name) work on yesterday?
@@ -18,7 +18,7 @@
 ## What am I (Name) working on today?
 <br>
 
-## What issues are blocking me (Name)?
+## What issues am I (Name) stuck on?
 ---
 ## What did I (Name) work on yesterday?
 <br>
@@ -26,5 +26,4 @@
 ## What am I (Name) working on today?
 <br>
 
-
-## What issues are blocking me (Name)?
+## What issues am I (Name) stuck on?
